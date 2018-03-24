@@ -1,0 +1,17 @@
+.counter {
+  orientation: horizontal;
+}
+
+.counter__button,
+.counter__text-field {
+  margin: 10;
+}
+
+.counter__button {
+  background-color: black;
+  color: white;
+}
+
+.counter__text-field {
+  background-color: white;
+}
