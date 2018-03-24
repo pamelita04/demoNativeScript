@@ -1,0 +1,9 @@
+<ActionBar title="Que estamos aprendiendo?" class="action-bar"></ActionBar>
+<ListView [items]="items" class="list-group">
+  <ng-template let-item="item">
+    <FlexboxLayout class="list-group" flexDirection="column" alignItems="center" [nsRouterLink]="['/detail-item']">
+      <Label [text]="item.name" class="list-group-item"></Label>
+      <Label [text]="item.speaker"></Label>
+    </FlexboxLayout>
+  </ng-template>
+</ListView>

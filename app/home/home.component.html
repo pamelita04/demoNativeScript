@@ -1,0 +1,7 @@
+<ActionBar title="Workshop #2" class="action-bar">
+</ActionBar>
+<StackLayout class="container">
+  <Button text="Lista" [nsRouterLink]="['/list']"></Button>
+  <Button text="Contador" [nsRouterLink]="['/counter']"></Button>
+  <Button text="Salir" (tap)="logout()"></Button>
+</StackLayout>

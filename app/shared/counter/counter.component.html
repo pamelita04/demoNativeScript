@@ -1,0 +1,9 @@
+<StackLayout class="counter">
+  <Button text="-" (tap)="decrease()" class="counter__button" ></Button>
+  <TextField
+    id="counter"
+    hint="Enter date" 
+    keyboardType="number"
+    [(ngModel)]="counter" class="counter__text-field"></TextField>
+  <Button text="+" (tap)="increase()" class="counter__button"></Button>
+</StackLayout>
